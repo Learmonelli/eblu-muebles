@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { site } from "@/lib/site";
+import { asset } from "@/lib/asset";
 
 const statColors = ["bg-mostaza", "bg-teal text-papel", "bg-fucsia text-papel"];
 
@@ -67,7 +68,7 @@ export default function Hero() {
 
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[2rem] border-2 border-ink shadow-hard lg:aspect-[4/5]">
             <Image
-              src="/images/sala-nordica.jpg"
+              src={asset("/images/sala-nordica.jpg")}
               alt="Sofá modular gris con almohadones y butaca verde en un living con escalera de madera"
               fill
               preload

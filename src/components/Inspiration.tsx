@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { site } from "@/lib/site";
+import { asset } from "@/lib/asset";
 import Reveal from "./Reveal";
 
 const tipColors = ["text-mostaza", "text-rosa", "text-ambar"];
@@ -21,7 +22,7 @@ export default function Inspiration() {
           <Reveal className="lg:col-span-2">
             <div className="relative aspect-[16/10] overflow-hidden rounded-[2rem] border-2 border-ink shadow-hard-cream">
               <Image
-                src="/images/sala-nordica.jpg"
+                src={asset("/images/sala-nordica.jpg")}
                 alt="Living con sofá gris, almohadones de colores y butaca verde"
                 fill
                 sizes="(max-width: 1024px) 100vw, 66vw"
@@ -33,7 +34,7 @@ export default function Inspiration() {
           <Reveal delay={120}>
             <div className="relative aspect-[16/10] overflow-hidden rounded-[2rem] border-2 border-ink shadow-hard-cream lg:aspect-auto lg:h-full">
               <Image
-                src="/images/sala-minimalista.jpg"
+                src={asset("/images/sala-minimalista.jpg")}
                 alt="Ambiente luminoso con sofá claro y mesa de madera"
                 fill
                 sizes="(max-width: 1024px) 100vw, 33vw"

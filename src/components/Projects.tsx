@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { site } from "@/lib/site";
+import { asset } from "@/lib/asset";
 import Reveal from "./Reveal";
 
 const frameShadows = ["shadow-hard-terracota", "shadow-hard-mostaza"];
@@ -38,7 +39,7 @@ export default function Projects() {
                   >
                     <div className="relative aspect-[16/11]">
                       <Image
-                        src={project.image}
+                        src={asset(project.image)}
                         alt={`${project.title} — ${project.category} de eblu muebles`}
                         width={project.width}
                         height={project.height}

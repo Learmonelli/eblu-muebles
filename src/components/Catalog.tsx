@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { site } from "@/lib/site";
+import { asset } from "@/lib/asset";
 import Reveal from "./Reveal";
 
 const tagColors = [
@@ -39,7 +40,7 @@ export default function Catalog() {
               <article className="card-hard group flex h-full flex-col overflow-hidden transition-transform duration-300 hover:-translate-y-1 hover:shadow-hard-lg">
                 <div className="relative aspect-[4/3] border-b-2 border-ink bg-arena">
                   <Image
-                    src={product.image}
+                    src={asset(product.image)}
                     alt={`${product.name} — ${product.category} de eblu muebles`}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

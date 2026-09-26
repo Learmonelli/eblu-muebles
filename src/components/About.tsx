@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { site } from "@/lib/site";
+import { asset } from "@/lib/asset";
 import Reveal from "./Reveal";
 
 const dotColors = ["bg-terracota", "bg-teal", "bg-fucsia"];
@@ -45,7 +46,7 @@ export default function About() {
         <Reveal delay={120} className="relative">
           <div className="relative aspect-[5/4] overflow-hidden rounded-[2rem] border-2 border-ink shadow-hard-teal lg:rotate-[-1.5deg]">
             <Image
-              src="/images/sala-minimalista.jpg"
+              src={asset("/images/sala-minimalista.jpg")}
               alt="Living luminoso con sofá claro, mesas de madera y decoración minimalista"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
