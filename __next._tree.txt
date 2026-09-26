@@ -1,4 +1,4 @@
-:HL["/eblu-muebles/_next/static/chunks/2lw3m1m-iy-gs.css","style"]
+:HL["/eblu-muebles/_next/static/chunks/0kugohylxod-u.css","style"]
 :HL["/eblu-muebles/_next/static/media/03bda585a99c6450-s.p.32sris142tqlb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/eblu-muebles/_next/static/media/75affa71d1e2f6a7-s.p.17-aodiw50953.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"8fHLL6m4vvDN4jpD0iiVp"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"MjDUEx2Hgueiic7AFbNZt"}
